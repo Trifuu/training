@@ -1,6 +1,15 @@
 # Crearea unei baze de date folosind phpmyadmin
 
 Trebuie sa aveti instalat git.
+Comenzi:
+git add .
+git status
+git commit -m "mesaj"
+git push origin master
+
+git pull origin master
+
+git clone link
 
 Din command promt(windows) sau terminal(linux) rulati urmatoarele comenzi:
 
