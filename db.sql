@@ -37,4 +37,10 @@ VALUES
     ('5', 'oprescucostel@gmail.com', 'Oprescu', 'Costel', '0712323452', '60');
 
 /*updatarea unui camp al unui angajat*/
-update angajati set salariu=4000 where id=1
+update angajati set salariu=4000 where id=1;
+
+/*selectarea tutoror elementelor din tabela angajati*/
+select * from angajati;
+
+/*selectarea angajatilor care au salariul mai mare de 1000 lei*/
+select * from angajati where salariu>1000;
