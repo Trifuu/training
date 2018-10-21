@@ -15,8 +15,7 @@ and open the template in the editor.
 			$db = new PDOEx("mysql:host=localhost;dbname=training", "root","nan587");
 			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		} catch (PDOException $e) {
-			$_LOGGER->error($e->getMessage());
-			die("A aparut o eroare (verifica user/parola/host pentru MySQL):<br>" . $e->getMessage());
+			var_dump($e);
 		}
         ?>
     </body>
