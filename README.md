@@ -19,6 +19,7 @@ Rulati pe rand fiecare comanda din fisierul db.sql si urmariti ce se intampla fo
 # Crearea unei pagini HTML
 
 Rulati in browser pagina index.html.
+
 Editati pagina astfel incat sa apara titlul "training" si un paragraf care sa contina numele vostru.
 
 # Crearea unei pagini php
