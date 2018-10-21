@@ -17,6 +17,21 @@ and open the template in the editor.
 		} catch (PDOException $e) {
 			var_dump($e);
 		}
+		
+		try {
+			$query=$db->prepare("select nume,prenume from angajati");
+			$query->execute();
+			$rezultat=$query->fetchAll(PDO::FETCH_ASSOC);
+			
+			//echo $rezultat;
+			echo '<pre>';
+			var_dump($rezultat[0]);
+			echo '</pre>';
+			echo $rezultat[0];
+			
+		} catch (PDOException $e) {
+			var_dump($e);
+		}
 		echo "merge";
         ?>
     </body>
