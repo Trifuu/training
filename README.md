@@ -24,6 +24,14 @@ Editati pagina astfel incat sa apara titlul "training" si un paragraf care sa co
 
 # Crearea unei pagini php
 
+Deschide-ti fisierul basic.php.
+
+Ce este schimbat fata de index.html?
+
+Cum se declara o variabila in PHP?
+
+Rulati fisierul in browser.
+
 /etc/apache2/mods-enabled/dir.conf
 
 <IfModule mod_dir.c>
